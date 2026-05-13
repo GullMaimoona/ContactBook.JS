@@ -25,7 +25,7 @@ console.log(contacts);
 console.log(contacts.filter(contacts => contacts.name !== "Shijrat ul Dur"));
 
 //Search by Partial Name
-console.log(contacts.filter(value => value.name.includes("Sh")));
+console.log(contacts.filter(value => vaglue.name.includes("Sh")));
 
 //Alphabatically sorted
 let sorted = [...contacts].sort ((a, b) => a.name.localeCompare(b.name));
